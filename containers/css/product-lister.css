@@ -1,1 +1,49 @@
 @import "/containers/css/style.css";
+.lister-card-container{
+    margin: 2rem;
+}
+.product-page-header{
+    font-size: 4rem;
+}
+.products-card-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* .product-card-margin{
+
+} */
+.product-per-card{
+    border: 0.1rem solid var(--page-shader-color);
+    border-top: none;
+    width:20rem;
+    height: 24rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.product-container-anchor{
+      z-index: 2;
+      margin-bottom: 1rem;
+}
+.icon-on-product{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 3;
+}
+.per-product-image{
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.product-card-text{
+    margin:0 1rem ;
+}
+.btn-in-card{
+    border: none;
+    background-color:var(--page-shader-color);
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
