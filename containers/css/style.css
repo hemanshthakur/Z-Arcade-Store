@@ -3,6 +3,7 @@
     --page-elements-color:white;
     --ascentic-color:black;
     --page-shader-color:#44d62c;
+    --badge-home-color:red;
     font-size: 10px;
 }
 body{
@@ -43,6 +44,7 @@ body{
     background-color: var(--ascentic-color);
     border-radius: 0.5rem  0  0 .5rem;
     border: 0.1rem  solid var(--page-shader-color) ;
+    color: var(--page-elements-color);
 }
 .search-section .search-btn{
     height:4.4rem;
@@ -58,10 +60,30 @@ body{
 .nav-items{
     display: inline;
     margin:  0 1.5rem;
+    font-size: 2rem;
 }
 a{
     text-decoration: none;
     color: var(--page-elements-color);
+}
+.badge-on-icon{
+    position: relative;
+    padding-top :.5rem
+}
+.badge-on-icon .badge{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0rem;
+    position: absolute;
+    font-size:1rem;
+    top:0rem;
+    left: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--badge-home-color);
+    border: none;
 }
 .catagory-cards-home{
     display:flex;
@@ -86,7 +108,7 @@ a{
    left: 0; 
    bottom: 0; 
    right: 0;
-   transition: transform .3s ease;
+   transition: transform .5s ease;
    overflow: hidden;
    z-index: 22;
    
@@ -96,7 +118,7 @@ a{
     width: 100%;
     height: 100%;
     border-radius: .5rem;
-    transition: transform .3s ease;
+    transition: transform .5s ease;
     overflow: hidden;
     z-index:21
 }
