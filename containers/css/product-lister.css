@@ -1,6 +1,7 @@
 @import "/containers/css/style.css";
 .lister-card-container{
     margin: 2rem;
+    display: flex;
 }
 .product-page-header{
     font-size: 4rem;
@@ -16,15 +17,15 @@
 } */
 .product-per-card{
     border: 0.1rem solid var(--page-shader-color);
-    border-top: none;
     width:20rem;
-    height: 24rem;
+    height: 28rem;
     border-radius: 0.5rem;
     position: relative;
+    margin: 1rem 1rem;
 }
 .product-container-anchor{
       z-index: 2;
-      margin-bottom: 1rem;
+
 }
 .icon-on-product{
     position: absolute;
@@ -36,6 +37,9 @@
     width: 100%;
     border-radius: 0.5rem 0.5rem 0 0;
 }
+.golden-rating{
+    color: gold;
+}
 .product-card-text{
     margin:0 1rem ;
 }
@@ -46,4 +50,44 @@
     padding: 0.5rem;
     font-size: 1.5rem;
     border-radius: .5rem;
+}
+.product-filter-div{
+    
+    min-width: 20rem;
+    border: .1rem solid var(--page-shader-color);
+    background-color: var(--ascentic-color);
+    margin-right:1rem ;
+
+}
+.product-page-header{
+    text-align: center;
+}
+.display-block{
+    display: block;
+
+}
+.filters-on-product{
+    margin: 1rem;
+}
+.filter-actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.input-for-filter{
+    color: var(--page-shader-color);
+}
+.header-and-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.filters{
+    margin:5rem 1rem
+}
+.clear-filter{
+    background-color: var(--page-shader-color);
+    border: none;
+    padding: 1rem;
+    border-radius:0.5rem;
 }

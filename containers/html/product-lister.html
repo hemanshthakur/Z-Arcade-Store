@@ -18,7 +18,7 @@
     <div class="home-main-container">
         <nav class="navbar">
             <header class="header-main-text">
-                <a href="">Z-Arcade</a>
+                <a href="/index.html">Z-Arcade</a>
             </header>
             <div class="search-section" action="">
                 <input class="input-search-bar" type="text" placeholder="    Search" name="search-bar">
@@ -26,175 +26,374 @@
             </div>
             <ul class="nav-list">
                 <li class="nav-items"><a href=""><i class="fa-solid fa-right-to-bracket"></i></a></li>
-                <li class="nav-items"><a class="badge-on-icon"href=""><i class="fa-solid fa-heart"></i><div class="badge">0</div></a></li>
-                <li class="nav-items"><a class="badge-on-icon"href=""><i class="fa-solid fa-cart-shopping"></i><div class="badge">0</div></a></li>
+                <li class="nav-items"><a class="badge-on-icon" href=""><i class="fa-solid fa-heart"></i>
+                        <div class="badge">0</div>
+                    </a></li>
+                <li class="nav-items"><a class="badge-on-icon" href=""><i class="fa-solid fa-cart-shopping"></i>
+                        <div class="badge">0</div>
+                    </a></li>
                 <li class="nav-items"><a href=""><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </nav>
         <div class="lister-card-container">
-            <h1 class="product-page-header">Keyboard</h1>
-            <div class="products-card-container">
-                    <a class="product-container-anchor"href="">
-                    <div class="product-per-card">
-                    <i class="fa-regular fa-heart icon-on-product"></i>
-                    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-                    <div class="product-card-text">
-                        <p class="product-name">Razer Hunstman Mini</p>
-                        <p class="product-price">₹9999/-</p>
-                        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+            <div class="product-filter-div">
+                <div class="filters-on-product">
+                <div class="header-and-filter">
+                    <h2>Filters</h2> <button class="clear-filter">Clear All</button>
                     </div>
-                </div>
-            </a>
-            <a class="product-container-anchor"href="">
-                <div class="product-per-card">
-                <i class="fa-regular fa-heart icon-on-product"></i>
-                <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-                <div class="product-card-text">
-                    <p class="product-name">Razer Hunstman Mini</p>
-                    <p class="product-price">₹9999/-</p>
-                    <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                    <form class="fiter-actions" action="">
+                        <div class="filters filter-by-price">
+                            <label class="display-block" for="price-range">Price</label>
+                            <input type="range" id="" name="price-range" min="0" max="200000"><br>
+                        </div>
+                        <div class="filters filter-by-brands">
+                            <p>Brands</p>
+                            <input type="checkbox" id="brand-razer" name="razer-brand" value="razer">
+                            <label for="razer-brand">Razer</label><br>
+                            <input type="checkbox" id="brand-corsair" name="corsair-brand" value="corsair">
+                            <label for="corsair-brand">Corsair</label><br>
+                            <input type="checkbox" id="brand-logitech" name="logitech-brand" value="logitech">
+                            <label for="logitech-brand">Logitech</label><br>
+                            <input type="checkbox" id="brand-MSI" name="MSI-brand" value="MSI">
+                            <label for="MSI-brand">MSI</label><br>
+                            <input type="checkbox" id="brand-ROG" name="ROG-brand" value="ROG">
+                            <label for="ROG-brand">ROG</label><br>
+                        </div>
+                        <div class="filters filter-by-rating">
+                            <p>Rating</p>
+                                <input type="radio" id="5star" name="5-star" value="5">
+                                <label for="5-star">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    </label><br>
+                                    <input type="radio" id="4star" name="4-star" value="4">
+                                    <label for="4-star">
+                                        <i class=" golden-rating fa-solid fa-star"></i>
+                                        <i class=" golden-rating fa-solid fa-star"></i>
+                                        <i class=" golden-rating fa-solid fa-star"></i>
+                                        <i class=" golden-rating fa-solid fa-star"></i>
+                                        </label><br>
+                                        <input type="radio" id="3star" name="3-star" value="3">
+                                <label for="3-star">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    </label><br>
+                                    <input type="radio" id="2star" name="2-star" value="2">
+                                <label for="2-star">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    </label><br>
+                                    <input type="radio" id="1star" name="1-star" value="1">
+                                <label for="1-star">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    </label><br>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </a>
-        <a class="product-container-anchor"href="">
-            <div class="product-per-card">
-            <i class="fa-regular fa-heart icon-on-product"></i>
-            <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-            <div class="product-card-text">
-                <p class="product-name">Razer Hunstman Mini</p>
-                <p class="product-price">₹9999/-</p>
-                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-            </div>
-        </div>
-    </a>
-    <a class="product-container-anchor"href="">
-        <div class="product-per-card">
-        <i class="fa-regular fa-heart icon-on-product"></i>
-        <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-        <div class="product-card-text">
-            <p class="product-name">Razer Hunstman Mini</p>
-            <p class="product-price">₹9999/-</p>
-            <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-        </div>
-    </div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
-<a class="product-container-anchor"href="">
-    <div class="product-per-card">
-    <i class="fa-regular fa-heart icon-on-product"></i>
-    <img class="per-product-image"src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
-    <div class="product-card-text">
-        <p class="product-name">Razer Hunstman Mini</p>
-        <p class="product-price">₹9999/-</p>
-        <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
-    </div>
-</div>
-</a>
+            <div class="product-header-and-card">
+                <h1 class="product-page-header">Keyboards</h1>
+                <div class="products-card-container">
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-container-anchor" href="">
+                        <div class="product-per-card">
+                            <i class="fa-regular fa-heart icon-on-product"></i>
+                            <img class="per-product-image"
+                                src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                            <div class="product-card-text">
+                                <p class="product-name">Razer Hunstman Mini</p>
+                                <p class="product-price">₹9999/-</p>
+                                <p class="rating-on-card">
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                    <i class=" golden-rating fa-solid fa-star"></i>
+                                </p>
+                                <button class="btn-in-card ">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
         <footer class="footer-home">
             <ul class="nav-list">
-                <li class="nav-items"><a href="https://github.com/hemanshthakur"target=blank><i class="fab fa-github"></i></a></li>
-                <li class="nav-items"><a href="https://twitter.com/thakurhemansh"target=blank><i class="fab fa-twitter"></i></a></li>
-                <li class="nav-items"><a href="https://www.linkedin.com/in/hemansh-thakur-5828ab1a8/"target=blank><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="nav-items"><a href="https://github.com/hemanshthakur" target=blank><i
+                            class="fab fa-github"></i></a></li>
+                <li class="nav-items"><a href="https://twitter.com/thakurhemansh" target=blank><i
+                            class="fab fa-twitter"></i></a></li>
+                <li class="nav-items"><a href="https://www.linkedin.com/in/hemansh-thakur-5828ab1a8/" target=blank><i
+                            class="fab fa-linkedin-in"></i></a></li>
             </ul>
             <small class="dev-name-home">Made by Hemansh Thakur</small>
         </footer>
