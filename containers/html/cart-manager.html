@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/containers/css/cart-manager.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="containers/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="containers/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="containers/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="containers/assets/favicon/site.webmanifest">
+    <script src="https://kit.fontawesome.com/a955c44e27.js" crossorigin="anonymous"></script>
+    <title>Z-Arcade</title>
+</head>
+
+<body>
+    <div class="home-main-container">
+        <nav class="navbar">
+            <header class="header-main-text">
+                <a href="/index.html">Z-Arcade</a>
+            </header>
+            <div class="search-section" action="">
+                <input class="input-search-bar" type="text" placeholder="    Search" name="search-bar">
+                <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-items"><a href=""><i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li class="nav-items"><a class="badge-on-icon" href=""><i class="fa-solid fa-heart"></i>
+                        <div class="badge">0</div>
+                    </a></li>
+                <li class="nav-items"><a class="badge-on-icon" href=""><i class="fa-solid fa-cart-shopping"></i>
+                        <div class="badge">0</div>
+                    </a></li>
+                <li class="nav-items"><a href=""><i class="fa-solid fa-user"></a></i></li>
+            </ul>
+
+        </nav>
+        <div class="cart-and-cart-header">
+            <h1 class="cart-header-text">
+                MyCart (0)
+            </h1>
+            <div class="product-card-and-summary">
+                <a class="product-container-anchor" href="">
+                    <div class="product-per-card cart-page">
+                        <i class="fa-regular fa-heart icon-on-product"></i>
+                        <img class="per-product-image"
+                            src="/containers/assets/product-lister/keyboard/razer-huntsman-mini.png" alt="">
+                        <div class="product-card-text">
+                            <p class="product-name">Razer Hunstman Mini</p>
+                            <p class="product-price">₹9999/-</p>
+                            <p class="rating-on-card">
+                                <i class=" golden-rating fa-solid fa-star"></i>
+                                <i class=" golden-rating fa-solid fa-star"></i>
+                                <i class=" golden-rating fa-solid fa-star"></i>
+                                <i class=" golden-rating fa-solid fa-star"></i>
+                                <i class=" golden-rating fa-solid fa-star"></i>
+                            </p>
+                            <div class="quantity-toggle-btns">
+                                <span>
+                                    <button class="add-one-more">+</button>
+                                </span>
+                                <span class="quantity-of-product">1</span>
+                                <span>
+                                    <button class="delete-one-more">-</button>
+                                </span>
+                            </div>
+                            <button class="btn-in-card ">Remove from Cart <i
+                                    class="fa-solid fa-circle-minus"></i></button>
+                        </div>
+                    </div>
+                </a>
+                <div class="cart-summary">
+                    <h2>Price Details</h2>
+                    <hr>
+                    <div class="mrp-details">
+                     <p>Price</p>
+                     <p>₹9999/-</p>
+                    </div>
+                    <div class="mrp-details">
+                        <p>Discount</p>
+                        <p>₹1999/-</p>
+                       </div>
+                       <div class="mrp-details">
+                        <p>Delivery Charges</p>
+                        <p>₹499/-</p>
+                       </div>
+                       <hr>
+                       <div class="mrp-details total-charge">
+                        <p >Total Charges</p>
+                        <p>₹8499/-</p>
+                       </div>
+                       <p>You save ₹1999 on your order</p>
+                       <hr>
+                       <button class="check-out-btn">
+                           Place Order
+                       </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-home">
+            <ul class="nav-list">
+                <li class="nav-items"><a href="https://github.com/hemanshthakur" target=blank><i
+                            class="fab fa-github"></i></a></li>
+                <li class="nav-items"><a href="https://twitter.com/thakurhemansh" target=blank><i
+                            class="fab fa-twitter"></i></a></li>
+                <li class="nav-items"><a href="https://www.linkedin.com/in/hemansh-thakur-5828ab1a8/" target=blank><i
+                            class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+            <small class="dev-name-home">Made by Hemansh Thakur</small>
+        </footer>
+    </div>
+
+
+    <script src="/containers/js/app.js"></script>
+</body>
+
+</html>
