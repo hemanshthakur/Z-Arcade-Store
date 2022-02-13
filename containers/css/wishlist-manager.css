@@ -1,0 +1,4 @@
+@import "/containers/css/cart-manager.css";
+.wishlist-active{
+    color: red;
+}
