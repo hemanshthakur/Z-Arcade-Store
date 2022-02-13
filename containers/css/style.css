@@ -172,7 +172,7 @@ button{
 .footer-home .dev-name-home{
     text-align: center;
 }
-@media screen and (max-width:660px){
+@media screen and (max-width:750px){
     :root{
         font-size: 5px;
     }
