@@ -4,7 +4,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
+    justify-content: space-evenly;
+   
 }
 .cart-page{
     height: 31rem;
@@ -21,8 +23,9 @@
 }
 .product-card-and-summary{
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .mrp-details{
     display: flex;
