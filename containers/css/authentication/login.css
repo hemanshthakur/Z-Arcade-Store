@@ -3,7 +3,6 @@
     align-self: center;
     background-color: var(--ascentic-color);
     border: .1rem solid var(--page-shader-color);
-    height: 40rem;
     width:40rem;
     display: flex;
     flex-direction: column;
