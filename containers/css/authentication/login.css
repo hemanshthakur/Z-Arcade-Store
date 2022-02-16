@@ -1,0 +1,42 @@
+@import "/containers/css/cart-manager.css";
+.login-box-container{
+    align-self: center;
+    background-color: var(--ascentic-color);
+    border: .1rem solid var(--page-shader-color);
+    width:40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    box-shadow: 0 0 1rem var(--page-shader-color);
+}
+.login-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+.input-form-bar{
+    background-color: var(--page-background-color);
+    color: var(--page-elements-color);
+    border: 0.1rem solid var(--page-shader-color);
+    height:3rem;
+    width: 100%;
+    margin: 1rem 0;
+}
+.login-btn{
+    width: 100%;
+    border: none;
+    height: 4rem;
+    background-color: var(--page-shader-color);
+    font-weight: 700;
+}
+.btn-newacc{
+    color: var(--page-shader-color);
+}
+.login-container-head{
+    color: var(--page-shader-color);
+}
+.new-user-text{
+    color: var(--placeholder-color);
+}
