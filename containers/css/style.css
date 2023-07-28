@@ -150,8 +150,9 @@ button{
     position: relative;
 }
 .home-welcome-quote{  
-  font-size:8rem;
-  font-style: oblique;
+    font-size:8rem;
+    font-family: 'Handjet', cursive;
+    font-family: 'Tektur', cursive;
 }
 .author-home{
     font-size: 3rem;
